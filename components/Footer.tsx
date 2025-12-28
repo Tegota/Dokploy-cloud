@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
             </div>
         </div>
         <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-black/5 dark:border-white/5 text-center text-[10px] text-gray-400 dark:text-brand-muted/40 uppercase tracking-widest">
-            Dokploy is a registered trademark of its respective owners. This site is not affiliated with the official Dokploy SaaS.
+            Dokploy.cloud is not affiliated with the official Dokploy SaaS.
         </div>
     </footer>
   );

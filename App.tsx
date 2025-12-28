@@ -128,7 +128,7 @@ const App: React.FC = () => {
             >
                 <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/5 dark:bg-white/5 border border-black/5 dark:border-white/5 text-xs text-gray-500 dark:text-brand-muted backdrop-blur-sm">
                    <div className="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)] animate-pulse" />
-                   <span>Operational</span>
+                   <span>Online</span>
                 </div>
                 
                 <button 
@@ -163,7 +163,7 @@ const App: React.FC = () => {
             >
                 <div className="px-4 py-1.5 rounded-full bg-white dark:bg-brand-surface border border-black/5 dark:border-white/10 shadow-lg dark:shadow-[0_0_20px_-5px_rgba(255,255,255,0.05)] backdrop-blur-sm">
                     <span className="text-xs font-semibold tracking-[0.2em] uppercase text-gray-500 dark:text-brand-muted">
-                        Production Gateway
+                        Production
                     </span>
                 </div>
             </motion.div>
@@ -189,8 +189,8 @@ const App: React.FC = () => {
                 className="text-base md:text-xl text-gray-600 dark:text-brand-muted mb-10 md:mb-12 max-w-2xl mx-auto leading-relaxed font-light"
             >
                 Internal infrastructure for hosting and managing production-grade services. 
-                Powered by the open-source <span className="text-gray-900 dark:text-white font-medium">Dokploy</span> platform, 
-                maintained by the Tegota engineering team.
+                Powered by the <span className="text-gray-900 dark:text-white font-medium">Dokploy</span> platform, 
+                maintained by <span className="text-gray-900 dark:text-white font-medium">Tegota</span> .
             </motion.p>
 
             {/* CTA Button */}
@@ -212,7 +212,7 @@ const App: React.FC = () => {
                 
                 <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-brand-muted/60 bg-white/50 dark:bg-black/30 px-4 py-2 rounded-lg border border-black/5 dark:border-white/5 backdrop-blur-sm">
                     <Terminal size={12} />
-                    <span>Restricted internal access. Authorized Tegota personnel only.</span>
+                    <span>Limited access: Tegota personnel only.</span>
                 </div>
             </motion.div>
         </div>

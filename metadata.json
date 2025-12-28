@@ -1,4 +1,4 @@
 {
-  "name": "Tegota Dokploy Gateway",
-  "description": "Official gateway for the self-hosted Dokploy infrastructure managed by Tegota."
+  "name": "Dokploy Cloud",
+  "description": "Self-hosted Dokploy infrastructure managed by Tegota."
 }

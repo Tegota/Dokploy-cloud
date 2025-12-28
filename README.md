@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dokploy Cloud
 
-# Run and deploy your AI Studio app
+**Dokploy Cloud** is a self-hosted Dokploy instance operated and maintained by **Tegota**. This repository contains the public-facing configuration and resources related to the domain **dokploy.cloud**.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## Overview
 
-## Run Locally
+Dokploy Cloud is used by Tegota to manage and operate internal, production-grade services using the open-source **Dokploy** platform.
 
-**Prerequisites:**  Node.js
+This project exists to provide a clear public reference for the domain usage and to acknowledge the tooling that powers the infrastructure, without exposing internal architecture or operational details.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Platform
+
+- **Deployment Platform**: Dokploy (self-hosted, open source)
+- **Operator**: Tegota Team
+- **Access**: Internal members
+
+---
+
+## Open Source Acknowledgement
+
+This infrastructure is powered by **Dokploy**, an open-source, Docker-native deployment platform.
+
+Tegota extends sincere thanks to the Dokploy maintainers and contributors for building and maintaining a powerful self-hostable alternative to proprietary PaaS solutions such as Heroku and Vercel.
+
+If you use Dokploy, consider supporting the project on GitHub.
+
+---
+
+## Trademark & Affiliation Notice
+
+Dokploy is a registered trademark of its respective owners.  
+This deployment is **independently operated by Tegota** and is **not affiliated with or operated by the official Dokploy SaaS offering**.
+
+---
+
+## Contact
+
+For general or administrative inquiries:
+
+📧 support@tegota.com
